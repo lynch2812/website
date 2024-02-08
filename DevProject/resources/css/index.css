@@ -1,0 +1,179 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+ 
+  .intro-head {
+    background-color: white;
+    opacity: 0.5;
+  }
+.intro-head-lst {
+  background-color: white;
+    opacity: 0.5;
+}
+
+
+  h1{
+    text-align: center;
+    color: black;
+    text-shadow: 2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:35px;
+    }
+  
+  .intro-para{
+color: white;
+font-family: monospace;
+font-size: 27px;
+  }
+ .intro-lst{
+  font-size:29px;
+  color:black;
+ border: 7px inset whitesmoke ;
+ border-radius: 10px;
+ }
+ .intro-lst-glflnk{
+
+  color: white;
+} 
+ 
+ 
+ .hdng {
+  font-size:40px;
+  text-align:center;
+  background-color: black;
+  color: white;
+ }
+ 
+ 
+  
+
+  body {
+  background-color:darkslategrey;
+  background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.8
+}
+ 
+
+ table{
+  text-align: center;
+  background-color:darkolivegreen ;
+
+ }
+
+
+
+
+
+.content {
+  z-index: 50;
+  position: relative;
+}
+
+
+h4 {
+  text-align: left;
+}
+
+.tabCost {
+  text-align: center;
+  background-color:rgb(118, 164, 38);
+}
+
+/* Buttons */
+.btn {
+  background-color:green;
+  color:white;
+  padding:12px 24px;
+  border-radius:9px;
+  text-decoration:none;
+  font-family:sans-serif;
+  border:3px outset white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:white ;
+  color: green;
+  border: 2px solid green;
+}
+
+/* Dropdowns */
+
+.drpdwn-external {
+  height:50px;
+  border-width:1px;
+  border:8px outset white;
+  border-radius: 4px;
+  cursor:pointer;
+
+}
+.drpdwn-center{
+  width:34em;
+  height:27px;
+  text-align: center;
+  cursor:pointer;
+  border-radius:5px;
+  font-weight:bolder;
+  font-size:18px;
+  font-weight:bolder;
+  background-color:darkolivegreen;
+  font-family:ui-sans-serif;
+  
+}
+.intro-imge {
+  border:8px outset white;
+  
+  
+}
+
+  

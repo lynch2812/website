@@ -1,0 +1,351 @@
+body{
+    margin-right:325px;
+}
+/*navigation bar at the top of the screen*/
+#topNav-logo {
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 77px;
+}
+
+.topNav-list {
+    background-color: black;
+    border-bottom:1px solid white;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden; 
+}
+
+.topNav-list li {
+    float: left;
+    font-size: 22px;
+}
+
+.topNav-list li a {
+    color: white;
+    padding: 15px;
+    display:block;
+    margin-right:3px;
+    border-right:1px solid white;
+}
+
+.topNav-list li a:hover {
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+/*image*/
+.div-flex-imges {
+display:flex;
+flex-direction:row;
+background-color: darkslategray;
+justify-content:center;
+align-content: space-between;
+position: relative;
+margin-left: 0px;
+
+}
+#title-font-styled {
+    color:blanchedalmond;
+    
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, gray 0px 0px 20px, gray 0px 0px 30px, gray 0px 0px 40px, gray 0px 0px 50px, gray 0px 0px 75px;
+    color: gray;
+    
+        }
+
+
+
+/* paragraph in the home page, information*/
+.flexOne-div h1 {
+display: flex;
+flex-direction: column;
+font-size: 40px;
+font-family:fantasy;
+}
+
+.flexOne-div p {
+color:darkolivegreen;
+font-size: 19px;
+font-weight: bolder;
+}
+/* tile list flex grid.*/
+.div-grid-one {
+display:flex;
+flex-direction:row;
+margin-left: 5%;
+gap:30px;
+position:inherit;
+
+
+}
+
+
+/* image block/tile higher with england golf badge */
+
+.tile1 {
+    cursor: pointer;
+    position: relative;
+    width: 266px;
+    height: 266px;
+    border:5px ridge black;
+    border-radius: 150px;
+  }
+.tile1 .imageTile1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/Users/Shared/project pics/england-golf-logos-.jpeg");
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+  }
+.tile1 .tileOverlay {
+    display: none;
+    position: absolute;
+    border-radius: 150px;
+    width:266px;
+    height:266px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+.tile1 .tileHeading{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+  }
+.tile1:hover .imageTile1 {
+    filter:blur(1px);
+}
+.tile1:hover .tileOverlay {
+display:block;
+}
+.tile1:hover .tileHeading {
+display:block;
+
+}
+/* Image block/Tile 2nd in row */ 
+.tile2 {
+    cursor: pointer;
+    width: 266px;
+    height: 266px;
+    position: relative;
+    border:6px ridge gray;
+    border-radius: 160px;
+}
+.tile2 .imageTile2 {
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url("/Users/Shared/project pics/teaching.jpg");
+background-position-x: 50%;
+width: 100%;
+height: 100%;
+border-radius:160px;
+}
+.tile2 .tileOverlay2 {
+display: none;
+position: absolute;
+height:266px;
+width:266px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.5); 
+border-radius:160px;
+
+}
+.tile2 .tileHeading2 {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+.tile2:hover .imageTile2 {
+    filter:blur(1px);
+}
+.tile2:hover .tileOverlay2 {
+display:block;
+}
+.tile2:hover .tileHeading2 {
+display:block;
+}
+/* Image block/Tile 3rd in row */ 
+.tile3 {
+        cursor:pointer;
+        width:266px;
+        height:266px;
+        position:relative;
+        border:3px ridge blue;
+        border-radius: 160%;
+        }
+        
+.tile3 .imageTile3 {
+    background-position-x: 47%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("/Users/Shared/project pics/Shop.jpg");
+    width:100%;
+    height:100%;
+    border-radius: 160%;
+}
+
+.tile3 .tileOverlay3 {
+    display:none;
+    position: absolute;
+    height:266px;
+    width:266px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 160px;
+}
+
+.tile3 .tileHeading3 {
+    display:none;
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+.tile3:hover .imageTile3 {
+    filter:blur(3px);
+    }
+
+.tile3:hover .tileOverlay3 {
+    display: block;
+}
+.tile3:hover .tileHeading3{
+    display: block;
+}
+/*image tile/block 4th in row */
+.tile4  {
+    cursor:pointer;
+    width:266px;
+    height:266px;
+    position:relative;
+    border-radius: 160%;
+    }
+
+.tile4 .imageTile4 {
+    background-position-x: 47%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.127);
+    background-image:url("/Users/Shared/project pics/golfball.png");
+    width:100%;
+    height:100%;
+    border-radius: 160%;
+}
+.tile4 .tileOverlay4 {
+    display: none;
+    position: absolute;
+    width: 266px;
+    height: 266px;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.052);
+   border-radius: 160px; 
+}
+.tile4 .tileHeading4  {
+    display:none;
+    position:absolute;
+    width: 100%;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: rgba(0, 0, 0, 0.698);
+    text-align: center;
+    padding:120px 20px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tile4:hover .imageTile4 { 
+    filter:blur(1px)
+}
+.tile4:hover .tileOverlay4 {
+    display:block;
+}
+.tile4:hover .tileHeading4{
+    display:block;
+}
+/* The central information in the middle of the page on 'about us'*/
+.blocOne {
+    border-top: 2px solid black;
+    height: 50%;
+    float: left;
+    width: 30%;
+    margin-right: 100px;
+    margin: 25px;
+    padding-left: 14em;
+    padding-top: 3em;
+    
+}
+
+.blocOne-secondPair {
+    border-top: 2px solid black;
+    height: 50%;
+    float: left;
+    width: 30%;
+    margin-right: 100px;
+    margin: 25px;
+    padding-left: 14em;
+    padding-top: 4em;
+
+}
+
+.blocOne-title {
+    text-align: center;
+    color: blue;
+    font-size: 31px;
+    
+
+
+
+}
+
+.blocOne-context {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 24px;
+    line-height: 30px;
+    background-color: gray;
+
+}
+/* 'to the Tee' page table*/
+
+   
+
+
+
+
+       
+
